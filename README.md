@@ -10,14 +10,14 @@ Give your customer experience a human touch
 The all-in-one multichannel messaging platform that connects companies & customers.
 
 - [Installation](#installation)
-- [Usage](#use)
+- [Usage](#use-crisp-package)
 - [Props](#props)
 - [License](#license)
 - [Author](#author)
 
 ### Installation
 
-> Get `token` from [crisp.io](https://crisp.chat/en/)
+> Get `token` from [crisp.chat](https://crisp.chat/en/)
 
 ```bash
 npm i crisp-react
@@ -43,9 +43,9 @@ function App() {
 
 ## Props
 
-| props         | defaultValue | description                                          |
-| ------------- | ------------ | ---------------------------------------------------- |
-| cripWebsiteId | null         | Get `token` from [crisp.io](https://crisp.io/signup) |
+| props         | defaultValue | description                                           |
+| ------------- | ------------ | ----------------------------------------------------- |
+| cripWebsiteId | null         | Get `token` from [crisp.chat](https://crisp.chat/en/) |
 
 ### License
 
