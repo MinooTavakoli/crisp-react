@@ -1,8 +1,7 @@
 import * as React from 'react';
 
 interface DefaultProps {
-    crispToken?:string;
-    domain?:string;
+    crispWebsiteId?:string;
 }
 
 declare class Help extends React.Component<DefaultProps> {

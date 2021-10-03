@@ -12,7 +12,7 @@ function App() {
               gap:'1.5rem', 
               padding: '5rem' }}>
       <p>Test Crisp Chat.</p>
-       <CrispChat CripWebsiteId={CripWebsiteId} />
+       <CrispChat crispWebsiteId={CripWebsiteId} />
     </div>
   );
 }

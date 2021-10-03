@@ -35,7 +35,7 @@ function App() {
   return (
     <div>
       <h1>This is a test</h1>
-      <Crisp cripWebsiteId={token} />
+      <Crisp crispWebsiteId={token} />
     </div>
   );
 }
@@ -43,9 +43,9 @@ function App() {
 
 ## Props
 
-| props         | defaultValue | description                                           |
-| ------------- | ------------ | ----------------------------------------------------- |
-| cripWebsiteId | null         | Get `token` from [crisp.chat](https://crisp.chat/en/) |
+| props          | defaultValue | description                                           |
+| -------------- | ------------ | ----------------------------------------------------- |
+| crispWebsiteId | null         | Get `token` from [crisp.chat](https://crisp.chat/en/) |
 
 ### License
 

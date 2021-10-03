@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from "react";
 
-function CrispChat({ CripWebsiteId = null, domain = undefined }) {
+function CrispChat({ crispWebsiteId = null, domain = undefined }) {
   const ref = useRef();
   const crispChat = () => {
     window.$crisp = [];
-    window.CRISP_WEBSITE_ID = CripWebsiteId;
+    window.CRISP_WEBSITE_ID = crispWebsiteId;
     let d = document;
     let s = d.createElement("script");
     s.type = "text/javascript";
@@ -13,7 +13,7 @@ function CrispChat({ CripWebsiteId = null, domain = undefined }) {
     d.getElementsByTagName("head")[0].appendChild(s);
   };
   useEffect(() => {
-    if (CripWebsiteId) {
+    if (crispWebsiteId) {
       let e = document;
       let a = window;
       if ("complete" === e.readyState) crispChat();
@@ -23,7 +23,7 @@ function CrispChat({ CripWebsiteId = null, domain = undefined }) {
           : a.addEventListener("load", crispChat, !1);
       }
     }
-  }, [CripWebsiteId]);
+  }, [crispWebsiteId]);
   return <div ref={ref} />;
 }
 
